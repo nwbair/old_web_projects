@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<title> Login/Register</title>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+		<script type="text/javascript">
+		
+			function clickclear(thisfield, defaulttext) {
+				if (thisfield.value == defaulttext) {
+					thisfield.value = "";
+				}
+			}
+
+			function clickrecall(thisfield, defaulttext) {
+				if (thisfield.value == "") {
+					thisfield.value = defaulttext;
+				}
+			}			
+		</script>        
+    </head>
+    
+<body>    
+    <div class="full">
+		<div class="main">
+			<div id="header">
+            
+				<h1><a href="/">Almostlabs</a></h1>      
+            
+				<ul>
+					<li class="about currentpage"><a href="index.html">AlmostLabs Home</a></li>
+					<li class="work "><a href="login.html">Login/Register</a></li>
+					<li class="contact"><a href="contact.html">contact</a></li>
+				</ul>       
+			</div>
+        
+            <div id="content">  
+		
+				<h2>Login</h2>
+
+					<div id="login">
+         
+						<form id="login" action="" method="post">
+							<input type="text" id="emailinput" name="email" class="form"  value="Email" onclick="clickclear(this, 'Email')" onblur="clickrecall(this,'Email')"/><br /> 
+							<input type="text" id="pswinput" name="password" class="form"  value="Password" onclick="clickclear(this, 'Password')" onblur="clickrecall(this,'Password')"/><br />
+							<input type="submit" id="submitinput" value="Login &rarr;" class="enviar" /> 
+						</form>
+					</div>
+		
+		
+
+					<div id="register">
+		
+						<h2>Register</h2>
+         
+							<form id="login" action="" method="post">
+								<input type="text" id="emailinput" name="first" class="form"  value="First Name" onclick="clickclear(this, 'First Name')" onblur="clickrecall(this,'First Name')"/><br /> 
+								<input type="text" id="emailinput" name="street" class="form"  value="Street Address" onclick="clickclear(this, 'Street Address')" onblur="clickrecall(this,'Street Address')"/><br /> 
+								<input type="text" id="pswinput" name="state" class="form"  value="State" onclick="clickclear(this, 'State')" onblur="clickrecall(this,'State')"/><br />
+								<input type="text" id="emailinput" name="email" class="form"  value="Email" onclick="clickclear(this, 'Email')" onblur="clickrecall(this,'Email')"/><br /> 
+							</form>
+					</div>
+		
+					<div id="register2">
+	
+         
+						<form id="login" action="" method="post">
+							<input type="text" id="emailinput" name="last" class="form"  value="Last Name" onclick="clickclear(this, 'Last Name')" onblur="clickrecall(this,'Last Name')"/><br /> 
+							<input type="text" id="emailinput" name="last" class="form"  value="City" onclick="clickclear(this, 'City')" onblur="clickrecall(this,'City')"/><br /> 
+							<input type="text" id="pswinput"  name="zip" class="form"  value="Zip Code" onclick="clickclear(this, 'Zip Code')" onblur="clickrecall(this,'Zip Code')"""/><br />
+							<input type="text" id="emailinput" name="password" class="form"  value="Password" onclick="clickclear(this, 'Password')" onblur="clickrecall(this,'Psasword')"/><br />  
+							<input type="submit" id="submitinput" value="Register &rarr;" class="enviar" />
+						</form>
+					</div>
+
+       
+            <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>
+            
+               
+					<h4><span>&#64; 2011 AlmostLabs, LLC. All rights reserved.</span> </h4>
+          
+            
+                
+                        <ul class="social">
+							<li><a href="http://www.facebook.com" class="twitter" target="new">Like AlmostLabs on Facebook</a></li>
+							<li><a href="http://www.twitter.com" target="new">Follow AlmostLabs on Twitter</a></li>
+						</ul>
+            
+
+			</div><!--content -->
+        </div><!--content -->
+    </div>
+
+</body>
+</html>

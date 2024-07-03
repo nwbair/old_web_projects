@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Edit Users</title>
+
+<!-- CSS -->
+<link href="style/css/transdmin.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style/css/ie6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style/css/ie7.css" /><![endif]-->
+
+
+<script type="text/javascript" src="style/js/jquery.js"></script>
+<script type="text/javascript" src="style/js/jNice.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+    	
+    	<h1><a href="#"><span>AlmostLabs</span></a></h1>
+        
+        
+        <ul id="mainNav">
+        	<li><a href="home.html">HOME</a></li> 
+        	<li><a href="createusers.html" class="active">MANAGE USERS</a></li>
+        	<li><a href="createpages.html">MANAGE PAGES</a></li>
+        	<li><a href="#">OPTION</a></li>
+        	<li class="logout"><a href="#">LOGOUT</a></li>
+        </ul>
+        
+        
+        <div id="containerHolder">
+			<div id="container">
+        		<div id="sidebar">
+                	<ul class="sideNav">
+                    	<li><a href="createusers.html" >Create Users</a></li>
+                    	<li><a href="editusers.html" class="active">Edit Users</a></li>
+                    	<li><a href="php/deleteusers.php" >Delete Users</a></li>
+						<li><a href="php/userlist.php" >User List</a></li>
+						
+                    </ul>
+                    
+                </div>    
+                
+                
+                
+                <h2><a href="#">Manage Users</a> &raquo; <a href="#" class="active">Edit Users</a></h2>
+                <div id="main">
+                	<form name="search" method="post" action="" class="jNice">
+						<fieldset>
+						<p><label> Search for:</label> <input type="text" name="find" class="text-long" /></p> in <br><br>
+						 <Select NAME="field">
+						 <Option VALUE="first">First Name</option>
+						 <Option VALUE="last">Last Name</option>
+						 <Option VALUE="street">Street</option>
+						 <Option VALUE="city">City</option>
+						 <Option VALUE="state">State</option>
+						 <Option VALUE="zip">Zip Code</option>
+						 <Option VALUE="email">Email</option>
+						 </Select>
+						 <input type="hidden" name="searching" value="yes" />
+						 <input type="submit" name="Submit" value="Search" />
+						 </fieldset>
+					</form>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+                
+                
+                <div class="clear"></div>
+            </div>
+            
+        </div>	
+        
+        
+        <p id="footer">Copyright &copy 2011,AlmostLabs</p>
+    </div>
+    
+</body>
+</html>
+
+

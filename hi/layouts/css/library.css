@@ -1,0 +1,561 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, var {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+table, td, th {
+    vertical-align: middle;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a img {
+    border: medium none;
+}
+ul, ol, dir, menu {
+    list-style: none outside none;
+}
+:focus {
+    outline: medium none;
+}
+html {
+}
+html, body {
+    background: url("../images/backgrounds/body.jpg") no-repeat scroll center top #ABDEBE;
+    color: #262C26;
+    font-family: "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+    font-size: 11px;
+    height: 99%;
+    padding-top: 5px;
+}
+strong, th, thead td, h3, .bold {
+    font-weight: bold;
+}
+h1, h2, .large {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 300;
+}
+i {
+    font-family: georgia,serif;
+    font-weight: normal;
+}
+del {
+    color: #666666;
+    text-decoration: line-through;
+}
+ins {
+    text-decoration: underline;
+}
+small, .small {
+    font-family: "Lucida Grande",verdana,sans-serif;
+    font-size: 80%;
+    font-weight: normal;
+}
+sup {
+    line-height: 0;
+    vertical-align: super;
+}
+abbr, acronym, dfn span.title {
+    color: inherit;
+    cursor: help;
+    text-decoration: underline;
+}
+.money abbr {
+    cursor: default;
+    text-decoration: none;
+}
+.ellipsis {
+    -moz-binding: url("../xml/ellipsis.xml#ellipsis");
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ellipsis-clean {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.content ul {
+    list-style-type: square;
+    padding: 0 0 0 20px;
+}
+.content ol {
+    list-style-type: decimal;
+    padding: 0 0 0 20px;
+}
+.content p {
+    line-height: 1.4em;
+    margin: 10px 0;
+}
+.hideSubmit, .hideSubmit input {
+    opacity: 0;
+    width: 10px;
+}
+.buttons input {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 0 transparent;
+    border: medium none !important;
+    cursor: pointer;
+}
+.buttons input.disabled, .buttons input.disabled:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 0 transparent;
+    opacity: 0.4;
+}
+body#body-mint a.disabled, body#body-mint a.disabled:hover {
+    color: #AAAAAA;
+    cursor: text;
+}
+input.login {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 0 transparent;
+}
+input.login:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px 0 transparent;
+}
+.buttons input.save {
+    background-position: 0 -50px;
+}
+.buttons input.save:hover {
+    background-position: -100px -50px;
+}
+.buttons input.try-again {
+    background-position: 0 -150px;
+}
+.buttons input.try-again:hover {
+    background-position: -100px -150px;
+}
+.buttons input.yes {
+    background-position: 0 -200px;
+}
+.buttons input.yes:hover {
+    background-position: -100px -200px;
+}
+.buttons input.update {
+    background-position: 0 -250px;
+}
+.buttons input.update:hover {
+    background-position: -100px -250px;
+}
+.buttons input.edit {
+    background-position: 0 -300px;
+}
+.buttons input.edit:hover {
+    background-position: -100px -300px;
+}
+.buttons input.send {
+    background-position: 0 -350px;
+}
+.buttons input.send:hover {
+    background-position: -100px -350px;
+}
+.buttons input.next {
+    background-position: 0 -650px;
+}
+.buttons input.next:hover {
+    background-position: -100px -650px;
+}
+.buttons input.back {
+    background: url("../images/buttons/form-buttons.png") no-repeat scroll 0 -700px transparent;
+}
+.buttons input.back:hover {
+    background-position: -100px -700px;
+}
+table tbody tr td input.split {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 -400px transparent;
+}
+table tbody tr td input.split:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px -400px transparent;
+}
+table tbody tr td input.addlot {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 -750px transparent;
+}
+table tbody tr td input.addlot:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px -750px transparent;
+}
+table tbody tr td input.remove {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 -500px transparent;
+}
+table tbody tr td input.remove:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px -500px transparent;
+}
+.buttons input.no {
+    background-position: 0 -550px;
+}
+.buttons input.no:hover {
+    background-position: -100px -550px;
+}
+.buttons input.learn {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 -800px transparent;
+}
+.buttons input.learn:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px -800px transparent;
+}
+.buttons input.okay {
+    background-position: 0 -600px;
+}
+.buttons input.okay:hover {
+    background-position: -100px -600px;
+}
+form input.down {
+    background: url("../images/buttons/form-buttons.png") repeat scroll 0 -450px transparent;
+}
+form input.down:hover {
+    background: url("../images/buttons/form-buttons.png") repeat scroll -100px -450px transparent;
+}
+.buttons input.cancel {
+    background-position: 0 -100px;
+}
+.buttons input.cancel:hover {
+    background-position: -100px -100px;
+}
+div.ajax, span.ajax {
+    font-weight: bold;
+    visibility: hidden;
+}
+form .vError, form .vMessage {
+    margin-top: 5px;
+    min-height: 20px;
+    visibility: hidden;
+}
+.good div.ajax, .good span.ajax, .good span.msg, .good .vMessage {
+    color: #007934;
+}
+form .error .vError, form .good .vMessage, .good div.ajax, .error div.ajax, .good span.ajax, .error span.ajax {
+    visibility: visible;
+}
+.error input.text, .error input.text:hover, .error textarea, .error textarea:hover {
+    border-color: #BD1A00;
+}
+.form-error, .error label, .error .vError, table.popup fieldset .error label span, .error .ajax {
+    color: #BD1A00;
+    font-weight: bold;
+}
+div.row {
+    clear: both;
+}
+span.left {
+    float: left;
+    text-align: right;
+}
+span.ff, span.right, span.ajax {
+    float: right;
+    text-align: left;
+}
+input {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+input.text, input.password, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #DDDDDD;
+    padding: 2px;
+}
+input.password:hover, input.text:hover, textarea:hover {
+    border-color: #BBBBBB;
+}
+input.password:focus, input.text:focus, textarea:focus {
+    border-color: #007934;
+}
+input.submit, input.submit:focus {
+    background: url("../images/effects/gloss.png") repeat-x scroll 0 50% #4D4E53;
+    border: 2px outset #4D4E53;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+input.submit:hover {
+    background-color: #007934;
+    border-color: #007934;
+}
+input.submit:active {
+    border-style: inset;
+}
+input.disabled, input.disabled:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 2px solid #C7C7C7;
+    color: #AAAAAA;
+    cursor: default;
+}
+optgroup option {
+    margin-left: 15px;
+}
+h1 span.right, h2 span.right {
+    float: right;
+    margin: 0 0 5px;
+}
+.tip {
+    color: #333333;
+    font-size: 9px;
+}
+p.error {
+    background: none repeat scroll 0 0 #CC5100;
+    border: 3px solid #FF6500;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+p.error a, p.notice a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p.notice {
+    background: none repeat scroll 0 0 #007934;
+    border: 3px solid #57A779;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 5px 10px;
+}
+a.button {
+    cursor: pointer;
+    display: block;
+    text-indent: -9999px;
+}
+tr.alt {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+small, .help, .small {
+    color: #8B8078;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.float-right {
+    float: right;
+}
+.center {
+    text-align: center;
+}
+a {
+    color: #005A8C;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:focus {
+    color: #006699;
+}
+a:hover {
+    text-decoration: underline;
+}
+.cta, .new {
+    color: #FF8139;
+    font-weight: bold;
+}
+a.delete {
+    color: #BD1A00;
+    font-weight: bold;
+}
+a.open {
+    background-position: 0 -48px;
+}
+span.status {
+    font-weight: bold;
+}
+.hide {
+    display: none !important;
+}
+.hidden, .invisible {
+    visibility: hidden !important;
+}
+.nopad {
+    padding: 0 !important;
+}
+.money {
+    text-align: right;
+}
+dt {
+    color: #007934;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+dd {
+    margin: 0 0 0 20px;
+}
+p, blockquote {
+    line-height: 1.4em;
+}
+strong.alert {
+    color: #FF9C00;
+}
+hr {
+    background: none repeat scroll 0 0 #D7D2CB;
+    border: 0 none;
+    height: 1px;
+}
+a#logo-link {
+    background: url("../images/backgrounds/mint.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 80px;
+    text-decoration: none;
+    width: 194px;
+}
+div#body-header ul.links {
+    color: #757D7A;
+    float: right;
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+div#body-header ul.links li {
+    border-left: 1px solid #CEE1D9;
+    display: inline;
+    float: left;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+}
+div#body-header ul.links li#hdr-username {
+    border: medium none;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    max-width: 325px;
+    padding: 0;
+}
+div#body-header ul.links a {
+    color: #007934;
+    padding: 0 0 2px;
+}
+img#print-logo {
+    display: none;
+}
+div#body-header ul.tabs {
+    clear: right;
+    float: left;
+    margin: 15px 0 0 50px;
+}
+div#body-header ul.tabs li {
+    float: left;
+    position: relative;
+}
+div#body-header ul.tabs li a {
+    background: url("../images/backgrounds/tabs.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #262C26;
+    float: left;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 1px 0 0;
+    opacity: 0.4;
+    padding: 0 14px;
+    text-decoration: none;
+}
+div#body-header ul.tabs li a:hover {
+    opacity: 0.6;
+}
+body.login div#body-header ul.tabs li.selected a, body.summary div#body-header ul.tabs li#summary a, body.transaction div#body-header ul.tabs li#transaction a, body.goal div#body-header ul.tabs li#goal a, body.planning div#body-header ul.tabs li#planning a, body.save div#body-header ul.tabs li#save a, body.investment div#body-header ul.tabs li#investment a, body.trend div#body-header ul.tabs li#trend a, div#body-header ul.tabs li.current a {
+    background-image: none;
+    border-bottom-color: #FFFFFF;
+    opacity: 1;
+}
+div#wrapper {
+    margin: 0 auto;
+    width: 950px;
+}
+div#main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    width: 950px;
+}
+div#body-header {
+    text-align: right;
+}
+div#body-footer {
+    background: url("../images/backgrounds/footer.jpg") no-repeat scroll left top transparent;
+    clear: both;
+    color: #789B86;
+    font-family: "Lucida Grande",Verdana,sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 20px 0 25px;
+    text-align: center;
+}
+div#body-footer div.main-pages {
+    font-size: 11px;
+}
+div#body-footer div.main-pages, div#body-footer p {
+    letter-spacing: normal;
+    line-height: 24px;
+}
+div#body-footer a {
+    border-right: 1px solid #9AC7AC;
+    color: #688673;
+    font-weight: bold;
+    padding: 2px 8px;
+    text-transform: uppercase;
+}
+div#body-footer a.last {
+    border-right: medium none;
+}
+div#body-footer table {
+    margin: 10px auto 5px;
+}
+div#body-footer table a {
+    border: medium none;
+}
+div#body-footer table td {
+    padding: 0 10px;
+}
+div.column {
+    float: left;
+    min-height: 700px;
+}
+ol.list li {
+    font-size: 9pt;
+    list-style-type: decimal;
+    margin: 10px 0 10px 20px;
+}
+ul.list li {
+    border-bottom: 1px dotted #CCCCCC;
+    float: left;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 6px 0;
+    width: 100%;
+}
+ul.list li.header span.left {
+    margin: 0;
+}
+div.title {
+    margin: 20px 30px 0;
+    width: auto;
+}
+div.title h1 {
+    background-image: url("../images/text/titles.png");
+    background-repeat: no-repeat;
+    height: 34px;
+    text-indent: -9999px;
+}
+
+body.summary.turbotax .feature-message {
+    display: block;
+    margin: 20px 20px 0;
+}
+.logo h2 {
+    height: 50px;
+    text-indent: -9999px;
+}
+
+

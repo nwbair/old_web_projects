@@ -1,0 +1,57 @@
+/* 
+    Document   : main
+    Created on : Nov 1, 2010, 11:30:45 AM
+    Author     : Nick Bair
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h2
+{
+font-size: 1em;
+border-bottom: solid 1px;
+}
+
+#active
+{
+background-color: #f26c4f;
+width: 300px;
+}
+
+#notactive
+{
+background-color: #c4df9b;
+width: 300px;
+}
+
+#activelist
+{
+margin-left: 0;
+padding-left: 0;
+list-style: none;
+}
+
+#activelist li
+{
+padding-left: 20px;
+background-image: url(../images/exclamation.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+border-bottom: dotted 1px #A70000;
+}
+
+#deactivelist
+{
+margin-left: 0;
+padding-left: 0;
+list-style: none;
+}
+
+#deactivelist li
+{
+padding-left: 20px;
+background-image: url(../images/accept.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+border-bottom: dotted 1px green;
+}

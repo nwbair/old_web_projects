@@ -1,0 +1,84 @@
+div.module h5, div.module h6 {
+    color: #685C53;
+}
+div.module h5 {
+    font-size: 110%;
+}
+div.module div.button-bar {
+    clear: both;
+    height: 27px;
+}
+div.module div.button-bar a {
+    border: 1px solid #ADB9C2;
+    color: #00476F;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 19px;
+    margin: 0 4px 0 0;
+    text-align: center;
+    width: 139px;
+}
+div.module {
+    margin: 0 0 15px 0;
+}
+div.module-content {
+    margin: 0 4px;
+}
+div.module-content div.missing, div.module-content div.do_more_link {
+    border: none;
+    color: #777;
+    float: none;
+    font-family: georgia;
+    font-size: 13px;
+    padding: 10px 0;
+    width: 100%;
+}
+div.module-content div.do_more_link a {
+    font-style: normal;
+}
+div.module h1 {
+    color: #998F86;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 4px 0 5px 8px;
+    text-transform: uppercase;
+}
+div.module h1 a {
+    color: #999;
+    float: right;
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0 10px 0 0;
+    text-transform: none;
+}
+div.module h1 a:hover {
+	color: #005a8c;
+    text-decoration: none;
+}
+.welcome_message {
+	border: 1px solid #f6f6f6;
+	margin: 15px 0 0 15px;
+	moz-border-radius: 6px;
+	padding: 18px 17px 17px 153px;
+	webkit-border-radius:6px;
+	width: 745px;
+}
+.welcome_message p {
+	font: normal 14px 'Helvetica Neue','Helvetica', sans-serif;
+}
+div.column#column-main {
+	margin: 15px 0 0 0;
+	width: 960px;
+}
+div#module-investments h1 a {
+	text-indent: -120px;
+	width: 150px;
+}
+div#module-investments table {
+	width: 720px;
+]

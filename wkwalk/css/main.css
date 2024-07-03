@@ -1,0 +1,241 @@
+body {
+	line-height: 1.6em;
+	text-align: center;
+	color: #c0003d;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: .7em;
+}
+
+.input {
+	height: 1em;
+	border: 1px solid #000;
+	background: #f6a7c7;
+	width: 125px;
+	color: #c0003d;	
+}
+
+.button {
+	border: 1px solid #000;
+	font-size: 1em;
+	background: #f6a7c7;	
+}
+
+.button:hover {
+	background: #e70965;
+}
+
+.select {
+	background: #f6a7c7;
+}
+
+#nav {		
+	font-weight: bold;
+	text-align: center;
+}
+
+#nav li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 .9em;
+	margin: 0;
+	border-right: 1px solid #e70965;
+}
+
+#nav li.last {
+	border: none;
+}
+
+a {
+	color: #c0003d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f6a7c7;
+	text-decoration: underline;
+}
+
+#login {
+	text-align: center;
+}
+
+#register {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	text-align:center;
+}
+
+#content {
+	width: 800px;
+	margin: 25px auto;
+	text-align: left;
+}
+
+#content h1 {
+	font-size: 1.5em;
+}
+
+#datatable {
+	font-size: 12px;
+	background: #fff;
+	margin: auto;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#datatable th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #e70965;
+	padding: 10px 8px;
+	border-bottom: 2px solid #c0003d;
+}
+#datatable td {
+	border-bottom: 1px solid #f6a7c7;
+	color: #e70965;
+	padding: 6px 8px;
+}
+#datatable tbody tr:hover td {
+	color: #f6a7c7;
+}
+
+#ranktable {
+	font-size: 12px;
+	background: #fff;
+	margin: 0px;
+	width: 370px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#ranktable th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #e70965;
+	padding: 10px 8px;
+	border-bottom: 2px solid #c0003d;
+}
+#ranktable td {
+	border-bottom: 1px solid #f6a7c7;
+	color: #e70965;
+	padding: 6px 8px;
+}
+#ranktable tbody tr:hover td {
+	color: #f6a7c7;
+}
+
+#teams {
+	float: left;
+	clear: left;
+	margin-top: 100px;
+}
+
+#people {
+	float: right;
+	clear: right;
+	margin: 50px 0 0 0;
+}
+
+#weekly {
+	float: left;
+	clear: left;
+	margin: 50px 0 0 0;
+}
+
+#addsteps {
+	margin: 50px;
+	text-align: center;
+}
+
+#addsteps p{
+width: 300px;
+clear: left;
+margin: auto;
+padding: 5px 0 8px 0;
+padding-left: 0px;
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+#regteam {
+	margin: 50px;
+	text-align: center;
+}
+
+#regteam p{
+width: 300px;
+clear: left;
+margin: auto;
+padding: 5px 0 8px 0;
+padding-left: 0px;
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+#profile {
+	margin: 50px;
+	text-align: center;
+}
+
+#profile p{
+width: 300px;
+clear: left;
+margin: auto;
+padding: 5px 0 8px 0;
+padding-left: 0px;
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+#profile label{
+font-weight: bold;
+float: left;
+width: 150px;
+}
+
+#profile input[type="text"]{
+width: 125px;
+}
+
+#register {
+	margin: 50px;
+	text-align: center;
+}
+
+#register p{
+width: 300px;
+clear: left;
+margin: auto;
+padding: 5px 0 8px 0;
+padding-left: 0px;
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+#register label{
+font-weight: bold;
+float: left;
+width: 150px;
+}
+
+#register input[type="text"]{
+width: 125px;
+}
+
+#message {
+	color: green;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 25px 0 0 0;
+	text-align: center;
+}
+
+#error {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 25px 0 0 0;
+	text-align: center;
+}

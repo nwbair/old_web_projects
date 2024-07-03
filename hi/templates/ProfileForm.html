@@ -1,0 +1,54 @@
+<div id="profile">
+	<h1>Profile</h1>
+	<form name="profile" action="profile.php" method="POST">
+		<p>
+			<label for="Email">Email</label>
+                        <input type="text" name="email" class="input" value="<?php echo $userEmail; ?>" />
+		</p>
+<!--		<p>
+			<label for="password1">Password</label> 
+			<input type="password" name="password1" class="input" />
+		</p>
+		<p>
+			<label for="password2">Verify Password</label> 
+			<input type="password" name="password2" class="input" />
+		</p>
+-->
+		<p>
+			<label for="firstname">First Name</label> 
+                        <input type="text"  name="firstname" class="input" value="<?php echo $userFirstName; ?>" />
+		</p>
+		<p>
+			<label for="lastname">Last Name</label> 
+			<input type="text"  name="lastname" class="input" value="<?php echo $arr['lastname']; ?>" />
+		</p>
+		<p>		
+			<label for="address1">Address 1</label> 
+			<input type="text"  name="address1" class="input" value="<?php echo $arr['address1']; ?>" />
+		</p>
+		<p>
+			<label for="address2">Address 2</label> 
+			<input type="text"  name="address2" class="input" value="<?php echo $arr['address2']; ?>" />
+		</p>
+		<p>
+			<label for="city">City</label> 
+			<input type="text"  name="city" class="input" value="<?php echo $arr['city']; ?>" />
+		</p>
+		<p>
+			<label for="state">State</label> 
+			<input type="text"  name="state" class="input" />
+		</p>		
+		<p>
+			<label for="zipcode">Zip Code</label> 
+			<input type="text"  name="zipcode" class="input" />
+		</p>
+		<p>
+			<label for="phone">Phone</label> 
+			<input type="text"  name="phone" class="input" />
+		</p>		
+		<p>
+			<input type="hidden" name="update_profile" value="1">
+			<input type="submit" value="Update Profile" class="button" />
+		</p>
+	</form> 
+</div>

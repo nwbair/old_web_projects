@@ -1,0 +1,16 @@
+<div id="nav">
+<ul>
+        <?php if (isset($_SESSION['email'])) {
+                echo $_SESSION['email'];
+            }
+        ?>
+	<li><a href="login.php">Login</a></li>
+	<li><a href="index.php">Home</a></li>
+
+        <?php if (isset($_SESSION['email'])) { ?>
+            <li><a href="profile.php">Profile</a></li>
+        <?php } ?>
+
+	<li class="last"><a href="logout.php">Logout</a></li>
+</ul>
+</div>

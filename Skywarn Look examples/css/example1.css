@@ -1,0 +1,18 @@
+/* 
+    Document   : main
+    Created on : Nov 1, 2010, 11:30:45 AM
+    Author     : Nick Bair
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.active
+{
+background-color: #f26c4f;
+}
+
+.notactive
+{
+background-color: #c4df9b;
+}
+

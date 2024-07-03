@@ -1,0 +1,247 @@
+/* 
+    Document   : main
+    Created on : Mar 30, 2011, 11:37:06 PM
+    Author     : Nick
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, var {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+table, td, th {
+    vertical-align: middle;
+}
+a img {
+    border: medium none;
+}
+ul, ol {
+    list-style: none outside none;
+}
+html, body {
+    background: url("../images/backgrounds/body.jpg") no-repeat scroll center top #404041;
+    color: #262C26;
+    font-family: "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+    font-size: 11px;
+    height: 99%;
+    padding-top: 5px;
+}
+strong, th, thead td, h3, .bold {
+    font-weight: bold;
+}
+a {
+    color: #005A8C;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:focus {
+    color: #006699;
+}
+a:hover {
+    text-decoration: underline;
+}
+p, blockquote {
+    line-height: 1.4em;
+}
+div#body-header ul.links {
+    color: #0191c8;
+    float: right;
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+div#body-header ul.links li {
+    border-left: 1px solid #CEE1D9;
+    display: inline;
+    float: left;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+}
+div#body-header ul.links li#hdr-username {
+	border: medium none;
+	display: inline-block;
+	float: left;
+	margin: 0;
+	max-width: 325px;
+	padding: 0;
+}
+div#body-header ul.links a {
+    color: #007934;
+    padding: 0 0 2px;
+}
+div#body-header ul.tabs {
+    clear: right;
+    float: left;
+    margin: 15px 0 0 50px;
+}
+div#body-header ul.tabs li {
+    float: left;
+    position: relative;
+}
+div#body-header ul.tabs li a {
+    background: url("../images/backgrounds/tabs.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #262C26;
+    float: left;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 1px 0 0;
+    opacity: 0.4;
+    padding: 0 14px;
+    text-decoration: none;
+}
+div#body-header ul.tabs li a:hover {
+    opacity: 0.6;
+}
+body.login div#body-header ul.tabs li.selected a, body.summary div#body-header ul.tabs li#summary a,
+body.transaction div#body-header ul.tabs li#transaction a, body.goal div#body-header ul.tabs li#goal a,
+body.planning div#body-header ul.tabs li#planning a, body.save div#body-header ul.tabs li#save a,
+body.investment div#body-header ul.tabs li#investment a, body.trend div#body-header ul.tabs li#trend a,
+div#body-header ul.tabs li.current a {
+    background-image: none;
+    border-bottom-color: #FFFFFF;
+    opacity: 1;
+}
+div#wrapper {
+    margin: 0 auto;
+    width: 950px;
+}
+div#main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    width: 960px;
+}
+div#body-header{
+    text-align: right;
+}
+div#body-footer {
+    clear: both;
+    color: #789B86;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 20px 0 25px;
+    text-align: center;
+}
+div#body-footer div.main-pages {
+    font-size: 11px;
+}
+div#body-footer div.main-pages, div#body-footer p {
+    letter-spacing: normal;
+    line-height: 24px;
+}
+div#body-footer a {
+    border-right: 1px solid #9AC7AC;
+    color: #688673;
+    font-weight: bold;
+    padding: 2px 8px;
+    text-transform: uppercase;
+}
+div#body-footer a.last {
+    border-right: medium none;
+}
+div.column {
+    float: left;
+    min-height: 700px;
+}
+ol.list li {
+    font-size: 9pt;
+    list-style-type: decimal;
+    margin: 10px 0 10px 20px;
+}
+ul.list li {
+    border-bottom: 1px dotted #CCCCCC;
+    float: left;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 6px 0;
+    width: 100%;
+}
+ul.list li.header span.left {
+    margin: 0;
+}
+div.module-content {
+    overflow-y: hidden;
+}
+table.nice {
+    margin: 0 0 10px;
+}
+table.nice td {
+    text-align: right;
+}
+table.nice td, table.nice th {
+    line-height: normal;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+table.nice tbody, table.nice tfoot th {
+    font-size: 11px;
+    font-weight: normal;
+}
+table.nice span.symbol {
+    color: #999999;
+    font-size: 85%;
+    letter-spacing: 1px;
+    padding: 0 0 0 4px;
+    text-transform: uppercase;
+}
+table.nice thead {
+    color: #685C53;
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+table.nice thead th, table.nice thead td {
+    border-bottom: 1px solid #E0E0DC;
+    color: #6F655D;
+    padding: 0 0 3px 5px;
+    vertical-align: bottom;
+}
+table.nice tr th {
+    padding-left: 18px;
+}
+table.nice tr.index th {
+    color: #666666;
+    font-family: georgia, serif;
+    font-style: italic;
+}
+table.nice tfoot th, table.nice tfoot td {
+    border-top: 1px solid # E0E0DC;
+}
+table.nice tbody td, table.nice tbody th {
+    border-top 1px dashed #DEDEDE;
+}
+table.nice tbody th {
+    font-weight: normal;
+}
+table.nice td {
+    color: #382D24;
+}
+

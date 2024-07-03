@@ -1,0 +1,13 @@
+Admin:
+
+Add, Edit, Delete Users
+Add, Edit, Open, Close, Delete New Customers
+Reporting by User, Date, and Status
+Reports Export to Excel
+Daily Report Autorun (Closed Previous Day) with Email
+
+
+
+User:
+Ticket Number and Noting Capability
+Self Reporting with Excel and Email Download Options

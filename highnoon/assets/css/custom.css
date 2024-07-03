@@ -1,0 +1,104 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -200px;
+	/* Pad bottom by footer height */
+	padding: 0 0 0;
+}
+
+.footer {
+	/* Set the fixed height of the footer here */
+	margin-top: 25px;
+	padding-top: 25px;
+	height: 200px;
+	background-color: #121213;
+}
+
+.footer ul>lh {
+	color: #ffffff;
+	margin-left: -15px;
+}
+
+.order-status h6 {
+	text-align: center;
+}
+
+.order-status h6>small {
+	color: #DF0101;
+}
+
+.menu-search {
+	margin-left: 55px;
+}
+
+.nav-search, .nav-btn-menu {
+	margin-top: 10px;
+}
+
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+/* ------------------------------------------------------- */
+/* ---------------->>> product_single <<<----------------- */
+/* ------------------------------------------------------- */
+
+.jumbotron {
+    max-width: 730px;
+    background-color: #ffffff;
+}
+
+.marketing {
+    max-width: 730px;
+}

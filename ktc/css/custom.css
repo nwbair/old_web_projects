@@ -1,0 +1,79 @@
+/**************** FONTS ****************/
+@import url(http://fonts.googleapis.com/css?family=Orienta);
+
+/**************** General Formatting ****************/
+body { background-color: #fbf9f6; background: url("../img/bg2.png") repeat scroll 0% 0% transparent; }
+.ktc_h1 { font-family: Orienta, Corbel, 'Myriad Pro', Arial, Helvetica, sans-serif; text-align: center; margin-top: 50px; }
+#main { width: 620px;	margin: auto; }
+#content { display: block; width: 750px; margin: 25px auto; }
+.noborder { border: 0px !important; }
+.myhero-unit { width: 100%; height: 450px; background-color: #000000; background: url("../img/bg-area.jpg") repeat; color: #FFFFFF; }
+.dark { color: #F2DEDE; }
+
+/**************** Search Results Formatting ****************/
+#accountStats { display: block; width: auto; background-color: #473a3d; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+#accountStats .data {display: block; padding: 6px; background: #f1e0cb; overflow: hidden; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#accountStats .data h1 { margin: 10px; color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; font-weight: bold; font-size: 1.9em; }
+#accountStats .data h2 { margin: 10px; color: #474747; line-height: 1.3em; font-weight: normal; font-size: 1.6em;}
+#accountStats .data h3 { margin: 10px; color: #666; line-height: 0.9em; margin-bottom: 5px; font-weight: normal; font-size: 1.3em; }
+#accountStats .data h4 { margin: 10px; font-size: 1.2em; line-height: 1.3em; }
+#accountStats .accountInfo { float: left; }
+#accountStats .data .firmStatus { float: right; position: relative; }
+#accountStats .data .sep { width: 750px; clear:both; margin-top: 40px; height: 60px; border-top: 1px solid #ccc; margin-top: 0; }
+#accountStats .data .left { float: left; width: 374px; text-align: center; line-height: 4.5em; border-right: 1px dotted #666; height: 60px;}
+#accountStats .data .right { float: left; width: 374px; text-align: center; line-height: 4.5em; height: 60px; }
+#accountStats .data .left a { display: block; height: 100%; width: 100%; text-decoration: none; }
+#accountStats .data .right a { display: block; height: 100%; width: 100%; text-decoration: none; }
+
+#changes { margin-top: 20px; display: block; width: auto; background-color: #473a3d; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+#changes .data {display: block; padding: 6px; background: #f1e0cb; overflow: hidden; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#changes .data h1 { margin: 10px; color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; font-weight: bold; font-size: 1.9em; }
+#changes .data h2 { margin: 10px; color: #474747; line-height: 1.3em; font-weight: normal; font-size: 1.6em;}
+#changes .data h3 { margin: 10px; color: #666; line-height: 0.9em; margin-bottom: 5px; font-weight: normal; font-size: 1.3em; }
+#changes .data h4 { margin: 10px; font-size: 1.2em; line-height: 1.3em; }
+
+#contacts { margin-top: 20px; display: block; width: auto; background-color: #473a3d; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+#contacts .data {display: block; padding: 6px; background: #f1e0cb; overflow: hidden; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#contacts .data h1 { margin: 10px; color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; font-weight: bold; font-size: 1.9em; }
+#contacts .data h2 { margin: 10px; color: #474747; line-height: 1.3em; font-weight: normal; font-size: 1.6em;}
+#contacts .data h3 { margin: 10px; color: #666; line-height: 0.9em; margin-bottom: 5px; font-weight: normal; font-size: 1.3em; }
+#contacts .data h4 { margin: 10px; font-size: 1.2em; line-height: 1.3em; }
+
+#accounts { margin-top: 20px; display: block; width: auto; background-color: #473a3d; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+#accounts .data {display: block; padding: 6px; background: #f1e0cb; overflow: hidden; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#accounts .data h1 { margin: 10px; color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; font-weight: bold; font-size: 1.9em; }
+#accounts .data h2 { margin: 10px; color: #474747; line-height: 1.3em; font-weight: normal; font-size: 1.6em;}
+#accounts .data h3 { margin: 10px; color: #666; line-height: 0.9em; margin-bottom: 5px; font-weight: normal; font-size: 1.3em; }
+#accounts .data h4 { margin: 10px; font-size: 1.2em; line-height: 1.3em; }
+
+/**************** Nav Bar Formatting ****************/
+.nav li a { padding: 5px; margin: 5px 5px 5px 0; -moz-border-readius: 5px; -webkit-border-readius: 5px; border-radius: 5px; }
+.brand { width: 169px; height: 26px; padding: 0; margin: 5px 0 0 0; }
+.navbar-form { padding: 5px; margin: 5px 5px 5px 0; }
+
+/**************** Search Bar Formatting ****************/
+
+/*
+#searchForm1 { background-color: #473a3d; padding: 50px 50px 50px; margin: 50px 0; position: relative; -moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px; }
+#searchForm1 fieldset { border: none; }
+#s1 { border: none; color: #888888; background: url('../img/searchBox.png') no-repeat; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 15px; height: 36px; line-height: 36px; margin-right: 12px; outline: medium none; padding: 0 0 0 35px; text-shadow 1px 1px 0 white; width: 385px; }
+*/
+.header_message { padding-top: 75px; padding-left: 125px; text-shadow: #000 1px 5px 10px; }
+.header_message span { color: #F5821F; }
+#submitButton { background: url('../img/buttons.png') no-repeat; width: 83px; height: 36px; text-indent: -9999px; overflow: hidden; text-transform: uppercase; border: none; cursor: pointer; }
+#submitButton:hover { background-position: left bottom; }
+
+.search { display: block; position: absolute; top: 320px; left: 25%; right: 25%; }
+#s { border: none; color: #888888; background: url('../img/searchBox.png') no-repeat; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 15px; height: 36px; line-height: 36px; margin-right: 12px; outline: medium none; padding: 0 0 0 35px; width: 385px; }
+
+/**************** Dashboard Approval Formatting ****************/
+#suggestions { list-style: none; }
+#suggestions li { position: relative; margin: 0 0 8px 0; padding: 0 0 0 70px; width: 607px; }
+#suggestions li span { padding: 8px; -moz-border-radius: 5px; -webkit-border-radius: 5px; width: 475px; display: block; position: relative; }
+.item span { background: rgb(115, 184, 191); }
+.tab { height: 21px; top: 4px; }
+.approvetab { position: absolute; left: 600px; width: 210px; }
+.discardtab { position: absolute; left: 750px; width: 210px; }
+
+/**************** Footer Formatting ****************/
+#footer { position: relative; bottom: 0; width: 100%; height: 60px; text-align: center; }

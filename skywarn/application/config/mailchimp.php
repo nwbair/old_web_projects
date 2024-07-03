@@ -8,6 +8,6 @@
 |
 |
 */
-$config['apikey']	= '54e05332ac0afaaf96c6f67eb01d9329-us2';
+$config['apikey']	= '';
 
 ?>
